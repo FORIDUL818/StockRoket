@@ -6,7 +6,7 @@ const cloudinary = require("../Utility/cloudinary");
 const detailsService = require('../Common/DetailsService');
 const DropDownService = require('../Common/DropDownService');
 const ListServiceTwo = require('../Common/ListServiceTwo'); 
-
+//  import area up 
 
 
 const uploadDir = path.join(__dirname, '../uploads');
