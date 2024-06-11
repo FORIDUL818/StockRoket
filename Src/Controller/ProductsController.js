@@ -5,7 +5,8 @@ const productModel = require("../Models/product/ProductModel");
 const cloudinary = require("../Utility/cloudinary");
 const detailsService = require('../Common/DetailsService');
 const DropDownService = require('../Common/DropDownService');
-const LIstServiceTwo = require('../Common/LIstServiceTwo');
+const ListServiceTwo = require('../Common//ListServiceTwo'); 
+
 
 
 const uploadDir = path.join(__dirname, '../uploads');
@@ -184,7 +185,7 @@ exports.updateProducts=async(req,res)=>{
           { 'category.name': searchRegex }
       ];
 
-      const result = await LIstServiceTwo(req, productModel, array, joinOnestage, joinTwostage);
+      const result = await ListServiceTwo(req, productModel, array, joinOnestage, joinTwostage);
       
       res.status(200).json(result);
   } catch (err) {
