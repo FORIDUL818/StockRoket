@@ -5,7 +5,7 @@ const productModel = require("../Models/product/ProductModel");
 const cloudinary = require("../Utility/cloudinary");
 const detailsService = require('../Common/DetailsService');
 const DropDownService = require('../Common/DropDownService');
-const ListServiceTwo = require('../Common//ListServiceTwo'); 
+const ListServiceTwo = require('../Common/ListServiceTwo'); 
 
 
 
