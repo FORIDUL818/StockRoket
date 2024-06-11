@@ -1,6 +1,6 @@
 const CreateParentChaildSevice = require("../Common/CreateParentChaildService");
 const deleteChildService = require("../Common/DeleteChaildService");
-const ListServiceOne = require("../Common/LIstServiceOne");
+const ListServiceOne = require("../Common/ListServiceOne");
 const parentModel = require("../Models/Salse/SalseModel");
 const childModel = require("../Models/Salse/SalseProductModel");
 // createSalse start

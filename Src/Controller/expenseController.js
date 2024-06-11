@@ -1,6 +1,6 @@
 const CreateService = require("../Common/CreateService")
 const detailsService = require("../Common/DetailsService")
-const ListServiceOne = require("../Common/LIstServiceOne")
+const ListServiceOne = require("../Common/ListServiceOne")
 const updateServece = require("../Common/UpdateService")
 const deleteService = require("../Common/deleteServece")
 const expensesModel = require("../Models/expenseModel")

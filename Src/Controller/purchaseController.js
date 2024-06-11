@@ -3,7 +3,7 @@ const parentModel = require("../Models/Purchase/PurchaseModel");
 const childModel = require("../Models/Purchase/PurchaseProductsModel");
 const CreateParentChaildSevice=require("../Common/CreateParentChaildService");
 const deleteChaildService = require("../Common/DeleteChaildService");
-const ListServiceOne = require("../Common/LIstServiceOne");
+const ListServiceOne = require("../Common/ListServiceOne");
 //createPurchase start
 exports.createPurchase = async (req, res) => {
     const result = await CreateParentChaildSevice(req, parentModel, childModel, "purchaseId");
